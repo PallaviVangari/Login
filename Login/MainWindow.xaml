@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:Login"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Background="Lavender">
+        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="155,211,0,0" VerticalAlignment="Top" Width="75" Foreground="#FF16F7ED" Background="#FFBE8FDE" FontFamily="Stencil" FontSize="14" IsDefault="True" ClickMode="Press" Click="button_Click"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="23" Margin="181,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Foreground="#FF0F19F0" FontFamily="Tahoma" FontSize="16" />
+
+        <Label x:Name="label1" Content="User Name:" HorizontalAlignment="Left" Margin="46,98,0,0" VerticalAlignment="Top" Width="97" Foreground="#FF4959FB" FontFamily="Tahoma" FontSize="16" FontStyle="Italic"/>
+        <Label x:Name="label2" Content="Login" HorizontalAlignment="Left" Margin="220,22,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.012,-1.62" Width="81" FontFamily="Tahoma" FontSize="20" FontWeight="Bold" FontStyle="Italic" Foreground="#FF3521F5"/>
+        <Label x:Name="label" Content="Password :" HorizontalAlignment="Left" Margin="46,139,0,0" VerticalAlignment="Top" Foreground="#FF4959FB" FontFamily="Tahoma" FontSize="16" Width="97" FontStyle="Italic"/>
+        <Button x:Name="button1" Content="Cancel" HorizontalAlignment="Left" Margin="264,211,0,0" VerticalAlignment="Top" Width="75" Background="#FFBE8FDE" Foreground="#FF1EE8F1" FontFamily="Stencil" FontSize="14"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="181,149,0,0" VerticalAlignment="Top" Width="120" Height="23" Foreground="#FF4959FB" FontFamily="Tahoma" FontSize="16" FontStyle="Italic"/>
+
     </Grid>
 </Window>
